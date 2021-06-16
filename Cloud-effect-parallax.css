@@ -4,12 +4,14 @@
     margin: 0;
     padding: 0;
 }
+
 #Cloud-effect-parallax {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 .banner {
     position: relative;
     width: 100%;
@@ -18,6 +20,7 @@
     background-size: cover;
     background-position: bottom;
 }
+
 .banner .clouds {
     position: absolute;
     top: 0;
@@ -31,7 +34,16 @@
     position: absolute;
     bottom: 0;
     max-width: 100%;
-    animation: animate calc(8s *var(--i)) linear infinite; /* this line is for getting all the cloud images for animation*/
+    animation: animate calc(8s * var(--i)) linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
 }
 
 .section {
@@ -49,12 +61,4 @@
     text-align: justify;
 }
 
-@keyframes animate {
-    0% {
-        transform: translateX(-100%);
-    }
-    100% {
-        transform: translateX(100%);
-    }
-}
 

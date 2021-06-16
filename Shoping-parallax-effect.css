@@ -93,7 +93,7 @@
     width: 100%;
     background-image: url(img/photo-1575939238474-c8ada13b2724.jfif);
     background-attachment: fixed;
-    background-size: cover;  /* this style property will cover the entire container*/
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
 }

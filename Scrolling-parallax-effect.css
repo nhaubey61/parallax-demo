@@ -37,15 +37,15 @@
     color: #fff;
     font-size: 1.6em;
     font-weight: 500;
-
+ 
 }
 
-#scrolling-parallax-effect header,
+#Scrolling-parallax-effect header,
 header:before {
     background: 50% 50% / cover;
 }
 
-/* #Scrolling-parallax-effect header::before {
+#Scrolling-parallax-effect header::before {
     bottom: 0;
     content: "";
     left: 0;
@@ -59,7 +59,7 @@ header:before {
     transform: translateZ(-1px) scale(2);
     z-index: -1;
     min-height: 100vh;
-} */
+}
 
 #Scrolling-parallax-effect header * {
     font-weight: normal;
@@ -68,6 +68,3 @@ header:before {
     margin: 0;
     padding: 1em 0;
 }
-
-
-
