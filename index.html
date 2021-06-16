@@ -24,7 +24,6 @@
         <img src="moon/road.png" id="road">
         <h2 id="text">Moon Light</h2>
         </section>
-
         <section class="section white">
             <h2>Cloud effect parallax </h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, animi minus! Quo unde accusantium
@@ -45,7 +44,7 @@
 
     <!------ Cloud effect parallax ------>
     <section id="Cloud-effect-parallax">
-        <div class="banner">
+        <div class="banner"> 
             <div class="clouds">
             <img src="cloud/cloud1.png" style="--i:1;">
             <img src="cloud/cloud2.png" style="--i:2;">
@@ -82,7 +81,8 @@
         </section>
     </section>
 
-     <!------ Scrolling parallax effect ------>
+    
+    <!------ Scrolling parallax effect ------>
     <section id="Scrolling-parallax-effect">
         <header>
             <h1>Scrolling parallax effect</h1>
@@ -90,6 +90,8 @@
         </header>
     </section>
 
+
+        
     <!------ Shopping parallax effect ------>
     <section id="Shoping-parallax-effect">
         <div id="parallax">
@@ -159,6 +161,7 @@
         </div>
     </section>
 
+
     <!------ Moon parallax effect ------>
     <script type="text/javascript">
         let bg = document.getElementById("bg");
@@ -169,13 +172,7 @@
 
         window.addEventListener('scroll', function() {
             var value = window.scrollY;
-            /* The read-only scrollY property of the Window interface
-             returns the number of pixels that the document is 
-             currently scrolled vertically. 
-             This value is subpixel precise in modern browsers, 
-             meaning that it isn't necessarily a whole number. 
-             You can get the number of pixels the document is 
-             scrolled horizontally from the scrollX property. */
+
             bg.style.top = value * 0.5 + 'px';
             moon.style.left = -value  * 0.5 + 'px';
             mountain.style.top = -value * 0.15 + 'px';
@@ -187,10 +184,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
